@@ -3,6 +3,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
   color: #212121;
+  margin: 0;
 }
 
 :root {
@@ -13,16 +14,49 @@ body {
   --color-light-grey: #f5f4fa;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .accent {
   color: var(--color-blue);
 }
 
 .header {
   background-color: var(--color-white);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+  width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-with-logo-and-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .portfolio-item {
   background-color: var(--color-white);
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0;
+}
+
+.porftolio-item-li {
+  flex-basis: calc((100%-60px) / 3);
 }
 
 .logo {
@@ -36,6 +70,11 @@ body {
 
 .nav {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 261px;
+  padding-left: 0px;
+  margin-left: 93px;
 }
 .nav a {
   font-weight: 500;
@@ -63,6 +102,12 @@ body {
 .contact-header:hover,
 .contact-header:focus {
   color: var(--color-blue);
+}
+
+.div-with-email-and-tel {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .h1 {
@@ -150,6 +195,9 @@ body {
   line-height: 1.63;
   background-color: var(--color-light-grey);
   cursor: pointer;
+  border-radius: 4px;
+  border: 0px;
+  padding: 6px 22px 6px 22px;
 }
 
 .portfolio-button:hover,
@@ -160,6 +208,15 @@ body {
 
 .portfolio-button-list ul {
   list-style: none;
+}
+
+.portfolio-button-list-open {
+  display: flex;
+  gap: 8px;
+}
+
+img {
+  display: block;
 }
 
 .portfolio-item h4 {

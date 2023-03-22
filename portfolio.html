@@ -7,33 +7,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header class="header">
-      <a class="logo" href="./index.html"
-        ><span class="accent">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="nav">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="contact-header" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
+    <header class="header container">
+      <div class="div-with-logo-and-nav">
+        <a class="logo" href="./index.html"
+          ><span class="accent">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="nav">
+            <li><a href="#">Agencja</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="div-with-email-and-tel">
+        <a class="contact-header" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
+
     <main class="portfolio-button-list">
-      <div>
-        <ul>
+      <div class="container">
+        <ul class="portfolio-button-list-open">
           <li>
             <button class="portfolio-button" type="button">Wszystkie</button>
           </li>
@@ -51,9 +64,9 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="container">
         <ul class="portfolio-item">
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img1.jpg"
@@ -67,7 +80,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img2.jpg"
@@ -81,7 +94,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img3.jpg"
@@ -95,7 +108,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img4.jpg"
@@ -109,7 +122,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img5.jpg"
@@ -123,7 +136,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img6.jpg"
@@ -137,7 +150,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img7.jpg"
@@ -151,7 +164,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img8.jpg"
@@ -165,7 +178,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="porftolio-item-li">
             <figure>
               <img
                 src="./images/portfolio/img9.jpg"
