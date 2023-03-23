@@ -52,8 +52,9 @@
         </h1>
         <button class="order-button" type="button">Zamów usługę</button>
       </section>
+
       <div class="about-us">
-        <section>
+        <section class="container section">
           <ul class="about-us-list">
             <li>
               <h3>LOREM IPSUM</h3>
@@ -86,8 +87,8 @@
           </ul>
         </section>
 
-        <section class="what-we-do">
-          <h2 class="h2">Czym się zajmujemy</h2>
+        <section class="what-we-do container">
+          <h2 class="h2-what-we-do">Czym się zajmujemy</h2>
           <ul class="what-we-do-list">
             <li>
               <img
@@ -117,80 +118,88 @@
         </section>
       </div>
       <section class="our-team">
-        <h2 class="h2">Nasz zespół</h2>
-        <ul class="our-team-list">
-          <li>
-            <figure>
-              <img
-                src="./images/mainpage/photo-1.jpg"
-                alt="zdjęcie przedstawiające Johna Doe"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h4>John Doe</h4>
-                <p>Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/mainpage/photo-2.jpg"
-                alt="zdjęcie przedstawiające Johna Doe"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h4>John Doe</h4>
-                <p>Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/mainpage/photo-3.jpg"
-                alt="zdjęcie przedstawiające Johna Doe"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h4>John Doe</h4>
-                <p>Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/mainpage/photo-4.jpg"
-                alt="zdjęcie przedstawiające Johna Doe"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h4>John Doe</h4>
-                <p>Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="h2-our-team">Nasz zespół</h2>
+          <ul class="our-team-list">
+            <li>
+              <figure>
+                <img
+                  src="./images/mainpage/photo-1.jpg"
+                  alt="zdjęcie przedstawiające Johna Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/mainpage/photo-2.jpg"
+                  alt="zdjęcie przedstawiające Johna Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/mainpage/photo-3.jpg"
+                  alt="zdjęcie przedstawiające Johna Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="./images/mainpage/photo-4.jpg"
+                  alt="zdjęcie przedstawiające Johna Doe"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h4>John Doe</h4>
+                  <p>Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>
-        <a class="logo-fotter" href="./index.html"
-          ><span class="accent">Web</span>Studio</a
-        >
-      </p>
 
-      <address class="address">
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="e-mail" href="mailto:info@devstudio.com">info@example.com</a>
-        <br />
-        <a href="tel:+48111111111">+48 111 111 111</a>
-      </address>
-    </footer>
+    <div class="fotter-for-background">
+      <footer class="footer container">
+        <p class="logo-fotter">
+          <a class="logo-fotter" href="./index.html"
+            ><span class="accent">Web</span>Studio</a
+          >
+        </p>
+
+        <address class="address">
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          <div class="email-in-fotter">
+            <a class="e-mail" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            >
+          </div>
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>

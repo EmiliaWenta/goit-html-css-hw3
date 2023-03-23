@@ -23,29 +23,30 @@
   </head>
 
   <body>
-    <header class="header container">
-      <div class="div-with-logo-and-nav">
-        <a class="logo" href="./index.html"
-          ><span class="accent">Web</span>Studio</a
-        >
-        <nav>
-          <ul class="nav">
-            <li><a href="#">Agencja</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="div-with-email-and-tel">
-        <a class="contact-header" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
-      </div>
-    </header>
-
-    <main class="portfolio-button-list">
-      <div class="container">
+    <div class="div-for-bottom-line">
+      <header class="header container">
+        <div class="div-with-logo-and-nav">
+          <a class="logo" href="./index.html"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <nav>
+            <ul class="nav">
+              <li><a href="#">Agencja</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="div-with-email-and-tel">
+          <a class="contact-header" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
+      </header>
+    </div>
+    <main class="portfolio-button-list container">
+      <section class="section">
         <ul class="portfolio-button-list-open">
           <li>
             <button class="portfolio-button" type="button">Wszystkie</button>
@@ -63,8 +64,7 @@
             <button class="portfolio-button" type="button">Marketing</button>
           </li>
         </ul>
-      </div>
-      <div class="container">
+
         <ul class="portfolio-item">
           <li class="porftolio-item-li">
             <figure>
@@ -193,21 +193,28 @@
             </figure>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
-    <footer class="footer">
-      <p>
-        <a class="logo-fotter" href="./index.html"
-          ><span class="accent">Web</span>Studio</a
-        >
-      </p>
 
-      <address class="address">
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="e-mail" href="mailto:info@devstudio.com">info@example.com</a>
-        <br />
-        <a href="tel:+48111111111">+48 111 111 111</a>
-      </address>
-    </footer>
+    <div class="fotter-for-background">
+      <footer class="footer container">
+        <p class="logo-fotter">
+          <a class="logo-fotter" href="./index.html"
+            ><span class="accent">Web</span>Studio</a
+          >
+        </p>
+
+        <address class="address">
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          <div class="email-in-fotter">
+            <a class="e-mail" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            >
+          </div>
+
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
