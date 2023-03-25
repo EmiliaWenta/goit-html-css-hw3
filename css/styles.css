@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  font-weight: 400;
   letter-spacing: 0.03em;
   color: #212121;
   width: 1600px;
@@ -35,12 +34,11 @@ body {
 
 .header {
   background-color: var(--color-white);
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14.3px;
-  padding-bottom: 14.3px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .div-for-bottom-line {
@@ -68,9 +66,7 @@ body {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 
 figcaption h4 {
@@ -176,6 +172,7 @@ figcaption h4 {
 .about-us p {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--color-p);
 }
 
@@ -183,7 +180,11 @@ figcaption h4 {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 29px;
+  gap: 30px;
+}
+
+.what-we-do-all {
+  padding-bottom: 94px;
 }
 
 .what-we-do {
@@ -195,7 +196,6 @@ figcaption h4 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .h2-our-team {
@@ -204,7 +204,7 @@ figcaption h4 {
   line-height: 1.17;
   padding-bottom: 50px;
   padding-top: 94px;
-  padding-left: 481px;
+  text-align: center;
 }
 .h2-what-we-do {
   font-weight: 700;
