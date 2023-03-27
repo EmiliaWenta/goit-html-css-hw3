@@ -183,12 +183,8 @@ figcaption h4 {
   gap: 30px;
 }
 
-.what-we-do-all {
-  padding-bottom: 94px;
-}
-
-.what-we-do {
-  background-color: var(--color-white);
+.about-us .what-we-do {
+  padding-top: 0px;
 }
 
 .what-we-do-list {
@@ -203,7 +199,6 @@ figcaption h4 {
   font-size: 36px;
   line-height: 1.17;
   padding-bottom: 50px;
-  padding-top: 94px;
   text-align: center;
 }
 .h2-what-we-do {
@@ -211,7 +206,7 @@ figcaption h4 {
   font-size: 36px;
   line-height: 1.17;
   padding-bottom: 50px;
-  padding-left: 409px;
+  text-align: center;
 }
 
 .our-team {
@@ -223,7 +218,6 @@ figcaption h4 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .our-team-list h4 {
@@ -268,6 +262,9 @@ figcaption h4 {
 .portfolio-button:focus {
   color: var(--color-white);
   background-color: var(--color-blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .section {
